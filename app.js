@@ -66,7 +66,7 @@ app.listen(process.env.PORT || 3000, function() { //Our program will run both on
 });
 
 //API Key from mailchip
-//35862d1efe3781e97250fcb423733eae-us4
+//<api-key>
 
 //List Id from mailchip
 //0818d515fb
