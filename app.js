@@ -36,7 +36,7 @@ app.post("/", function(req, res) {
 
   const options = {
     method: "POST",
-    auth: "snehal:35862d1efe3781e97250fcb423733eae-us4" //api key
+    auth: "<api-key>" //api key
   }
 
   //we use https.request instead of https.get because we want to post our data in the external server instead of receiving data from the external server.
