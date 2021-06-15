@@ -32,7 +32,7 @@ app.post("/", function(req, res) {
 
   const jsonData = JSON.stringify(data); //mailchip accepts data in the form of a string
 
-  const url = "https://us4.api.mailchimp.com/3.0/lists/0818d515fb" //list Id
+  const url = "<list-id>" //list Id
 
   const options = {
     method: "POST",
@@ -69,4 +69,4 @@ app.listen(process.env.PORT || 3000, function() { //Our program will run both on
 //<api-key>
 
 //List Id from mailchip
-//0818d515fb
+//<list-id>
